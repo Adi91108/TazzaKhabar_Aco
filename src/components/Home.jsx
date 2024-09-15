@@ -8,6 +8,7 @@ import Modal from "./common/Modal.jsx";
 import NewsDetailsPage from "./NewsDetailsPage.jsx";
 import ErrorPage from "./common/ErrorPage.jsx";
 import LoadingPage from "./common/LoadingPage.jsx";
+import SearchError from "../assets/SearchError.jpg";
 
 const HomePage = () => {
   const [selectedCategory, setSelectedCategory] = useState(
@@ -108,8 +109,8 @@ const HomePage = () => {
             ) : (
               <div className="col-span-full text-center py-10 flex flex-col justify-center items-center">
                 <img
-                  src="/Search_Not_found.png"
-                  alt=""
+                  src={SearchError}
+                  alt="Search not found"
                   width={1000}
                   height={1000}
                   className="w-[200px] md:w-[400px] object-contain"

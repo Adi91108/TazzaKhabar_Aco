@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_KEY = "757e6178eb3b7d347457b54acbb10322";
+// const API_KEY = "757e6178eb3b7d347457b54acbb10322";
+const API_KEY = "a0c1df04e92b068264521fbda735e753";
 
 const useNewsHook = (
   category = "general",
